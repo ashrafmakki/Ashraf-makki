@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أشرف مكي للاستيراد والتصدير | تعدين وتجارة الذهب - السودان</title>
+<link rel="preconnect" href="https://googleapis.com">
+<link rel="preconnect" href="https://gstatic.com" crossorigin>
+<link href="https://googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--dark:#111315;--dark2:#1b1f23;--gold:#d4af37;--light:#f8fafc;--muted:#94a3b8;--bg:#f8f9fa;--txt:#1e293b;--brd:#2c323a}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);line-height:1.7;font-family:'Tajawal',sans-serif}
+html[lang="en"] body{font-family:'Plus Jakarta Sans',sans-serif}
+header{background:rgba(17,19,21,.97);border-bottom:1px solid var(--brd);position:fixed;width:100%;top:0;z-index:1000;padding:1rem 5%;display:flex;justify-content:space-between;align-items:center}
+.logo h1{color:var(--light);font-size:1.35rem;font-weight:800}
+.logo span{color:var(--gold);font-size:.85rem}
+.nav-actions{display:flex;align-items:center;gap:1.5rem}
+nav ul{list-style:none;display:flex;gap:1.8rem;align-items:center}
+nav a{color:var(--light);text-decoration:none;font-weight:500}
+.cta-nav{background:var(--gold);color:var(--dark)!important;padding:.5rem 1.2rem;border-radius:5px;font-weight:700!important}
+.lang-btn{background:transparent;border:1.5px solid var(--gold);color:var(--gold);padding:.4rem .9rem;border-radius:5px;cursor:pointer;font-weight:700}
+.hero{background:linear-gradient(rgba(17,19,21,.82),rgba(17,19,21,.93)),url('https://unsplash.com') center/cover no-repeat;min-height:92vh;display:flex;align-items:center;padding:7rem 5% 4rem;color:var(--light)}
+.hero-content{max-width:760px}
+.badge{display:inline-block;background:rgba(212,175,55,.15);color:var(--gold);border:1px solid var(--gold);padding:.35rem 1rem;border-radius:50px;font-size:.9rem;font-weight:700;margin-bottom:1.2rem}
+.hero h2{font-size:2.5rem;font-weight:800;line-height:1.3;margin-bottom:1.2rem}
+.hero p{font-size:1.15rem;color:#d1d5db;margin-bottom:2rem}
+.hero-buttons{display:flex;gap:1rem;flex-wrap:wrap}
+.btn-primary{background:var(--gold);color:var(--dark);padding:.85rem 2rem;border-radius:6px;text-decoration:none;font-weight:700}
+.btn-outline{border:1.5px solid var(--light);color:var(--light);padding:.85rem 2rem;border-radius:6px;text-decoration:none;font-weight:700}
+section{padding:5rem 5%}
+.section-header{text-align:center;max-width:680px;margin:0 auto 3.5rem}
+.section-header span{color:var(--gold);font-weight:700;font-size:.95rem;display:block;margin-bottom:.4rem}
+.section-header h3{font-size:2rem;font-weight:800;color:var(--dark)}
+.about-grid,.contact-container{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:3rem;max-width:1200px;margin:0 auto;align-items:center}
+.about-text h4{font-size:1.5rem;margin-bottom:1rem;color:var(--dark)}
+.about-text p{color:#4b5563;margin-bottom:1.2rem}
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem;padding-top:1.5rem;border-top:1px solid #e5e7eb}
+.stat-box strong{display:block;font-size:1.75rem;color:var(--gold);font-weight:800}
+.stat-box span{font-size:.9rem;color:#6b7280}
+.about-card{background:var(--dark);color:var(--light);padding:2.5rem;border-radius:12px;border-inline-start:5px solid var(--gold)}
+.about-card h4{color:var(--gold);margin-bottom:1rem;font-size:1.3rem}
+.about-card ul{list-style:none}
+.about-card li{margin-bottom:.9rem;padding-inline-start:1.5rem;position:relative}
+.about-card li::before{content:"◆";color:var(--gold);position:absolute;inset-inline-start:0}
+.services{background:#fff}
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;max-width:1200px;margin:0 auto}
+.service-card{background:var(--bg);border:1px solid #e5e7eb;border-radius:10px;padding:2rem}
+.icon-box{width:55px;height:55px;background:var(--dark);color:var(--gold);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;font-weight:800;margin-bottom:1.2rem}
+.service-card h4{font-size:1.25rem;margin-bottom:.8rem;color:var(--dark)}
+.service-card p{color:#4b5563;font-size:.95rem}
+.contact{background:var(--dark);color:var(--light)}
+.contact .section-header h3{color:var(--light)}
+.contact-info h4{font-size:1.4rem;margin-bottom:1rem;color:var(--gold)}
+.contact-info p{color:var(--muted);margin-bottom:1.5rem}
+.info-item{margin-bottom:1.1rem;display:flex;flex-direction:column;border-inline-start:3px solid var(--gold);padding-inline-start:.9rem}
+.info-item strong{color:var(--gold);font-size:.95rem}
+.info-item a,.info-item span{color:var(--light);text-decoration:none;font-size:1.05rem}
+form{background:var(--dark2);padding:2rem;border-radius:10px;border:1px solid var(--brd)}
+.form-group{margin-bottom:1.2rem}
+label{display:block;margin-bottom:.4rem;font-size:.95rem;color:#d1d5db}
+input,textarea,select{width:100%;padding:.8rem;border-radius:6px;border:1px solid var(--brd);background:var(--dark);color:var(--light);font-size:1rem;font-family:inherit}
+button[type="submit"]{width:100%;background:var(--gold);color:var(--dark);border:none;padding:.9rem;font-size:1.05rem;font-weight:700;border-radius:6px;cursor:pointer;font-family:inherit}
+#formFeedback{margin-top:1rem;text-align:center;color:#4ade80;font-weight:600;display:none}
+footer{background:#0b0c0e;color:var(--muted);text-align:center;padding:1.8rem 5%;font-size:.9rem;border-top:1px solid var(--brd)}
+footer a{color:var(--gold);text-decoration:none}
+@media(max-width:768px){nav ul{display:none}.hero h2{font-size:2rem}.stats-row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo"><h1 data-i18n="brandName">أشرف مكي</h1><span data-i18n="brandSub">للاستيراد والتصدير | قطاع تعدين الذهب</span></div>
+<div class="nav-actions">
+<nav><ul><li><a href="#home" data-i18n="navHome">الرئيسية</a></li><li><a href="#about" data-i18n="navAbout">من نحن</a></li><li><a href="#services" data-i18n="navServices">خدماتنا</a></li><li><a href="#contact" class="cta-nav" data-i18n="navContact">تواصل معنا</a></li></ul></nav>
+<button id="langToggle" class="lang-btn">English</button>
+</div>
+</header>
+<section id="home" class="hero">
+<div class="hero-content">
+<span class="badge" data-i18n="heroBadge">الخرطوم - السودان | شريكك الموثوق في تعدين الذهب</span>
+<h2 data-i18n="heroTitle">حلول متكاملة في تعدين الذهب واستيراد تقنيات الاستكشاف والمعالجة</h2>
+<p data-i18n="heroDesc">أشرف مكي للاستيراد والتصدير متخصصة حصرياً في قطاع تعدين الذهب في السودان، وتوفير أحدث معدات التنقيب والاستخلاص وفق أعلى المعايير الدولية والرقابية.</p>
+<div class="hero-buttons"><a href="#contact" class="btn-primary" data-i18n="heroBtn1">تواصل للشراكة والتوريد</a><a href="#services" class="btn-outline" data-i18n="heroBtn2">استكشف خدمات التعدين</a></div>
+</div>
+</section>
+<section id="about">
+<div class="section-header"><span data-i18n="aboutSub">نبذة عنا</span><h3 data-i18n="aboutTitle">الريادة والموثوقية في قطاع تعدين الذهب بالسودان</h3></div>
+<div class="about-grid">
+<div class="about-text">
+<h4 data-i18n="aboutHeading">التزام صارم بالمعايير القانونية والفنية الدولية</h4>
+<p data-i18n="aboutP1">انطلاقاً من مقرنا الرئيسي في الخرطوم، جمهورية السودان، تعمل أشرف مكي للاستيراد والتصدير في صميم صناعة تعدين الذهب، عبر ربط مواقع الإنتاج والتنقيب بأحدث التقنيات العالمية والأسواق المعتمدة.</p>
+<p data-i18n="aboutP2">نلتزم في جميع عملياتنا بالشفافية الكاملة، والفحص الدقيق للعيار والنقاوة، والامتثال التام للوائح التعدين والتصدير الرسمية المعتمدة في السودان.</p>
+<div class="stats-row">
+<div class="stat-box"><strong>999.9</strong><span data-i18n="stat1">معايير النقاوة والفحص</span></div>
+<div class="stat-box"><strong>100%</strong><span data-i18n="stat2">امتثال قانوني ورقابي</span></div>
+<div class="stat-box"><strong>B2B</strong><span data-i18n="stat3">شراكات تعدين دولية</span></div>
+</div>
+</div>
+<div class="about-card">
+<h4 data-i18n="whyTitle">لماذا تختار أشرف مكي؟</h4>
+<ul>
+<li data-i18n="why1">تخصص دقيق ومباشر في سلسلة قيمة تعدين الذهب (من الاستكشاف حتى التصدير النظامي).</li>
+<li data-i18n="why2">شهادات فحص وعيار معتمدة من المعامل الرسمية قبل أي عملية تسليم أو شحن.</li>
+<li data-i18n="why3">توريد أحدث أجهزة الكشف الجيولوجي ومعدات الاستخلاص الصديقة للبيئة.</li>
+<li data-i18n="why4">إدارة لوجستية وتأمينية عالية الموثوقية من السودان إلى الأسواق العالمية.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="services" class="services">
+<div class="section-header"><span data-i18n="servSub">مجالات التخصص</span><h3 data-i18n="servTitle">خدماتنا في قطاع تعدين الذهب</h3></div>
+<div class="cards-grid">
+<div class="service-card"><div class="icon-box">01</div><h4 data-i18n="s1Title">تصدير الذهب الخام والمُصفّى</h4><p data-i18n="s1Desc">تصدير الذهب وفق القنوات الرسمية المعتمدة في السودان مع شهادات المنشأ والفحص المخبري الموثقة للمصافي والشركات الدولية.</p></div>
+<div class="service-card"><div class="icon-box">02</div><h4 data-i18n="s2Title">استيراد معدات تعدين الذهب</h4><p data-i18n="s2Desc">استيراد الكسارات، الطواحين، أجهزة الاستشعار والكشف عن المعادن، وخطوط فصل واستخلاص الذهب من كبرى المصانع العالمية.</p></div>
+<div class="service-card"><div class="icon-box">03</div><h4 data-i18n="s3Title">كيماويات ومستلزمات المعالجة</h4><p data-i18n="s3Desc">توفير المواد الكيميائية الآمنة، الكربون النشط، ومستلزمات الصهر والمعامل المختبرية الخاصة بتحليل خام الذهب.</p></div>
+<div class="service-card"><div class="icon-box">04</div><h4 data-i18n="s4Title">شراكات التنقيب والاستثمار</h4><p data-i18n="s4Desc">تقديم الدعم اللوجستي والفني وبناء شراكات استراتيجية مع المستثمرين وشركات التعدين العاملة في مربعات الامتياز بالسودان.</p></div>
+</div>
+</section>
+<section id="contact" class="contact">
+<div class="section-header"><span data-i18n="contSub">ابدأ شراكتك معنا</span><h3 data-i18n="contTitle">تواصل مع أشرف مكي للاستيراد والتصدير</h3></div>
+<div class="contact-container">
+<div class="contact-info">
+<h4 data-i18n="contHeading">يسعدنا استقبال استفسارات الشركات والمستثمرين</h4>
+<p data-i18n="contDesc">فريقنا في الخرطوم جاهز للتواصل وتقديم كافة التفاصيل الفنية والتجارية المتعلقة بقطاع تعدين الذهب.</p>
+<div class="info-item"><strong data-i18n="infoLocLabel">المقر الرئيسي:</strong><span data-i18n="infoLocVal">جمهورية السودان - الخرطوم</span></div>
+<div class="info-item"><strong data-i18n="infoMailLabel">البريد الإلكتروني الرسمي:</strong><a href="mailto:ashraf.makki@ashraf-makki.com">ashraf.makki@ashraf-makki.com</a></div>
+<div class="info-item"><strong data-i18n="infoWebLabel">الموقع الإلكتروني:</strong><a href="https://ashraf-makki.com" target="_blank" dir="ltr">://ashraf-makki.com</a></div>
+</div>
+<form id="contactForm">
+<div class="form-group"><label for="name" data-i18n="formName">الاسم الكامل / اسم الشركة</label><input type="text" id="name" required></div>
+<div class="form-group"><label for="email" data-i18n="formContact">البريد الإلكتروني أو رقم الهاتف</label><input type="text" id="email" required></div>
+<div class="form-group"><label for="type" data-i18n="formType">موضوع التواصل</label><select id="type"><option value="Gold Export / Import" data-i18n="opt1">تصدير / شراء الذهب وفق القنوات الرسمية</option><option value="Mining Equipment Supply" data-i18n="opt2">توريد معدات وتقنيات تعدين الذهب</option><option value="Investment Partnership" data-i18n="opt3">شراكة استثمارية في قطاع التعدين</option></select></div>
+<div class="form-group"><label for="message" data-i18n="formMsg">تفاصيل الطلب أو الاستفسار</label><textarea id="message" rows="4" required></textarea></div>
+<button type="submit" data-i18n="formBtn">إرسال الرسالة عبر البريد الإلكتروني</button>
+<div id="formFeedback" data-i18n="formFeedback">جارٍ فتح تطبيق البريد لإرسال رسالتك إلى ashraf.makki@ashraf-makki.com...</div>
+</form>
+</div>
+</section>
+<footer><p data-i18n="footerCopy">جميع الحقوق محفوظة &copy; 2026 - أشرف مكي للاستيراد والتصدير | الخرطوم، السودان</p><p style="margin-top:.4rem"><a href="https://ashraf-makki.com" target="_blank">://ashraf-makki.com</a></p></footer>
+<script>
+const t={ar:{pageTitle:"أشرف مكي للاستيراد والتصدير | تعدين وتجارة الذهب - السودان",brandName:"أشرف مكي",brandSub:"للاستيراد والتصدير | قطاع تعدين الذهب",navHome:"الرئيسية",navAbout:"من نحن",navServices:"خدماتنا",navContact:"تواصل معنا",heroBadge:"الخرطوم - السودان | شريكك الموثوق في تعدين الذهب",heroTitle:"حلول متكاملة في تعدين الذهب واستيراد تقنيات الاستكشاف والمعالجة",heroDesc:"أشرف مكي للاستيراد والتصدير متخصصة حصرياً في قطاع تعدين الذهب في السودان، وتوفير أحدث معدات التنقيب والاستخلاص وفق أعلى المعايير الدولية والرقابية.",heroBtn1:"تواصل للشراكة والتوريد",heroBtn2:"استكشف خدمات التعدين",aboutSub:"نبذة عنا",aboutTitle:"الريادة والموثوقية في قطاع تعدين الذهب بالسودان",aboutHeading:"التزام صارم بالمعايير القانونية والفنية الدولية",aboutP1:"انطلاقاً من مقرنا الرئيسي في الخرطوم، جمهورية السودان، تعمل أشرف مكي للاستيراد والتصدير في صميم صناعة تعدين الذهب، عبر ربط مواقع الإنتاج والتنقيب بأحدث التقنيات العالمية والأسواق المعتمدة.",aboutP2:"نلتزم في جميع عملياتنا بالشفافية الكاملة، والفحص الدقيق للعيار والنقاوة، والامتثال التام للوائح التعدين والتصدير الرسمية المعتمدة في السودان.",stat1:"معايير النقاوة والفحص",stat2:"امتثال قانوني ورقابي",stat3:"شراكات تعدين دولية",whyTitle:"لماذا تختار أشرف مكي؟",why1:"تخصص دقيق ومباشر في سلسلة قيمة تعدين الذهب (من الاستكشاف حتى التصدير النظامي).",why2:"شهادات فحص وعيار معتمدة من المعامل الرسمية قبل أي عملية تسليم أو شحن.",why3:"توريد أحدث أجهزة الكشف الجيولوجي ومعدات الاستخلاص الصديقة للبيئة.",why4:"إدارة لوجستية وتأمينية عالية الموثوقية من السودان إلى الأسواق العالمية.",servSub:"مجالات التخصص",servTitle:"خدماتنا في قطاع تعدين الذهب",s1Title:"تصدير الذهب الخام والمُصفّى",s1Desc:"تصدير الذهب وفق القنوات الرسمية المعتمدة في السودان مع شهادات المنشأ والفحص المخبري الموثقة للمصافي والشركات الدولية.",s2Title:"استيراد معدات تعدين الذهب",s2Desc:"استيراد الكسارات، الطواحين، أجهزة الاستشعار والكشف عن المعادن، وخطوط فصل واستخلاص الذهب من كبرى المصانع العالمية.",s3Title:"كيماويات ومستلزمات المعالجة",s3Desc:"توفير المواد الكيميائية الآمنة، الكربون النشط، ومستلزمات الصهر والمعامل المختبرية الخاصة بتحليل خام الذهب.",s4Title:"شراكات التنقيب والاستثمار",s4Desc:"تقديم الدعم اللوجستي والفني وبناء شراكات استراتيجية مع المستثمرين وشركات التعدين العاملة في مربعات الامتياز بالسودان.",contSub:"ابدأ شراكتك معنا",contTitle:"تواصل مع أشرف مكي للاستيراد والتصدير",contHeading:"يسعدنا استقبال استفسارات الشركات والمستثمرين",contDesc:"فريقنا في الخرطوم جاهز للتواصل وتقديم كافة التفاصيل الفنية والتجارية المتعلقة بقطاع تعدين الذهب.",infoLocLabel:"المقر الرئيسي:",infoLocVal:"جمهورية السودان - الخرطوم",infoMailLabel:"البريد الإلكتروني الرسمي:",infoWebLabel:"الموقع الإلكتروني:",formName:"الاسم الكامل / اسم الشركة",formContact:"البريد الإلكتروني أو رقم الهاتف",formType:"موضوع التواصل",opt1:"تصدير / شراء الذهب وفق القنوات الرسمية",opt2:"توريد معدات وتقنيات تعدين الذهب",opt3:"شراكة استثمارية في قطاع التعدين",formMsg:"تفاصيل الطلب أو الاستفسار",formBtn:"إرسال الرسالة عبر البريد الإلكتروني",formFeedback:"جارٍ فتح تطبيق البريد لإرسال رسالتك إلى ashraf.makki@ashraf-makki.com...",footerCopy:"جميع الحقوق محفوظة © 2026 - أشرف مكي للاستيراد والتصدير | الخرطوم، السودان"},
+en:{pageTitle:"Ashraf Makki Import & Export | Gold Mining Sector - Sudan",brandName:"Ashraf Makki",brandSub:"Import & Export | Gold Mining Sector",navHome:"Home",navAbout:"About Us",navServices:"Services",navContact:"Contact Us",heroBadge:"Khartoum - Sudan | Your Trusted Partner in Gold Mining",heroTitle:"Integrated Solutions in Gold Mining & Exploration Technologies",heroDesc:"Ashraf Makki Import & Export specializes exclusively in Sudan's gold mining sector, supplying advanced extraction equipment and certified gold exports under strict international standards.",heroBtn1:"Partner With Us",heroBtn2:"Explore Gold Services",aboutSub:"About Us",aboutTitle:"Leadership & Reliability in Sudan's Gold Mining Industry",aboutHeading:"Strict Adherence to Legal & International Technical Standards",aboutP1:"Headquartered in Khartoum, Republic of Sudan, Ashraf Makki Import & Export operates at the core of the gold mining industry, connecting production sites with global technologies and accredited international markets.",aboutP2:"We uphold complete transparency, certified assaying and purity verification, and full compliance with Sudan's official mining and export regulations.",stat1:"Purity & Assay Standards",stat2:"Regulatory Compliance",stat3:"Global Mining Partnerships",whyTitle:"Why Choose Ashraf Makki?",why1:"Dedicated focus on the gold mining value chain, from exploration to regulated export.",why2:"Official laboratory assay and purity certificates prior to any delivery or shipment.",why3:"Import of advanced geological detectors and eco-friendly gold recovery systems.",why4:"High-security logistics and insured transit from Sudan to international refineries.",servSub:"Core Expertise",servTitle:"Our Gold Mining Services",s1Title:"Regulated Gold Export",s1Desc:"Exporting raw and refined gold through Sudan's official channels with verified certificates of origin and assay reports for international refineries.",s2Title:"Gold Mining Equipment Import",s2Desc:"Importing crushers, ball mills, metal detectors, and complete gold processing lines from leading global manufacturers.",s3Title:"Processing Chemicals & Lab Supplies",s3Desc:"Supplying safe extraction reagents, activated carbon, smelting equipment, and laboratory assaying tools.",s4Title:"Exploration & Investment Partnerships",s4Desc:"Providing technical and logistical support to build strategic partnerships with investors and mining concession operators in Sudan.",contSub:"Start a Partnership",contTitle:"Contact Ashraf Makki Import & Export",contHeading:"We Welcome Corporate & Investor Inquiries",contDesc:"Our team in Khartoum is ready to provide technical specifications and commercial details regarding the gold mining sector.",infoLocLabel:"Headquarters:",infoLocVal:"Khartoum, Republic of Sudan",infoMailLabel:"Official Email:",infoWebLabel:"Website:",formName:"Full Name / Company Name",formContact:"Email Address or Phone Number",formType:"Inquiry Subject",opt1:"Regulated Gold Export / Purchase",opt2:"Gold Mining Equipment & Tech Supply",opt3:"Mining Investment Partnership",formMsg:"Inquiry or Request Details",formBtn:"Send Inquiry via Email",formFeedback:"Opening your email client to send your message to ashraf.makki@ashraf-makki.com...",footerCopy:"All Rights Reserved © 2026 - Ashraf Makki Import & Export | Khartoum, Sudan"}};
+let lang='ar';
+document.getElementById('langToggle').addEventListener('click',function(){
+lang=lang==='ar'?'en':'ar';
+document.documentElement.lang=lang;
+document.documentElement.dir=lang==='ar'?'rtl':'ltr';
+this.textContent=lang==='ar'?'English':'العربية';
+document.title=t[lang].pageTitle;
+document.querySelectorAll('[data-i18n]').forEach(e=>{const k=e.getAttribute('data-i18n');if(t[lang][k])e.textContent=t[lang][k];});
+});
+document.getElementById('contactForm').addEventListener('submit',function(e){
+e.preventDefault();
+const n=document.getElementById('name').value,c=document.getElementById('email').value,tp=document.getElementById('type').value,m=document.getElementById('message').value;
+document.getElementById('formFeedback').style.display='block';
+window.location.href=`mailto:ashraf.makki@://ashraf-makki.com{encodeURIComponent(`Website Inquiry: ${tp} - ${n}`)}&body=${encodeURIComponent(`Name / Company: ${n}\nContact Info: ${c}\nSubject: ${tp}\n\nMessage:\n${m}`)}`;
+});
+</script>
+</body>
+</html>
